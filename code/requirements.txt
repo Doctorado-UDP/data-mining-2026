@@ -1,0 +1,39 @@
+# Minería de Datos 2026 (DOA0006_CA01, Doctorado UDP): notebooks de demostración.
+# Versiones fijadas y verificadas en un entorno virtual nuevo con Python 3.12.
+# Este archivo crecerá con las siguientes sesiones a medida que se agreguen notebooks.
+#
+# Rango soportado (la primera celda de cada notebook lo verifica): Python >= 3.11, scikit-learn >= 1.6,
+# pandas >= 2.2, numpy >= 2.0, matplotlib >= 3.9, xgboost >= 2.1, optuna >= 4.0, spacy >= 3.7, nltk >= 3.8.
+# Las versiones fijadas abajo son las de la ejecución local, para reproducir exactamente los resultados.
+# Google Colab no usa este archivo: trabaja con sus versiones preinstaladas (octubre de 2026: Python 3.13,
+# scikit-learn 1.6.1, pandas 2.2.3, numpy 2.1.3, matplotlib 3.10.0, xgboost 3.4.1), y la primera celda
+# de cada notebook instala solo lo que falta (optuna en S10; el modelo es_core_news_sm de spaCy en S12),
+# sin actualizar ningún paquete. Colab trae spaCy 3.8.16 y NLTK 3.9.1 preinstalados.
+#
+# Instalación:
+#   python -m venv .venv
+#   .venv\Scripts\activate        (Windows)  |  source .venv/bin/activate  (macOS/Linux)
+#   pip install -r requirements.txt
+
+# Análisis y modelos (S8: 1_modelos_clasificacion.ipynb)
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+xgboost==3.4.1
+matplotlib==3.11.2
+
+# S10 (3_ensambles_y_ajuste.ipynb): optimización de hiperparámetros.
+# scipy y threadpoolctl, que el notebook también importa, se instalan con scikit-learn.
+optuna==5.0.0
+
+# S12 (4_clasificacion_TADA.ipynb): procesamiento de texto en español.
+# El modelo de spaCy para español no está en PyPI: se instala desde la página oficial de modelos de spaCy.
+# La lista de palabras vacías de NLTK se descarga desde el notebook (nltk.download).
+spacy==3.8.16
+nltk==3.10.3
+es_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl
+
+# Jupyter
+jupyter==1.1.1
+nbconvert==7.17.1
+ipykernel==7.4.0

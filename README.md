@@ -17,8 +17,8 @@ Todos los notebooks funcionan igual **en su computador** y en **Google Colab**.
 |---|---|---|---|
 | Clustering (próximamente) | Sesión de autoestudio | Modelamiento descriptivo: k-means, clustering jerárquico, DBSCAN, silueta y PCA | Próximamente |
 | [`code/1_modelos_clasificacion.ipynb`](code/1_modelos_clasificacion.ipynb) | Sesión 8 · jueves 15 de octubre | Modelos de clasificación: regresión logística, Naive Bayes, k-NN, SVM, MLP, random forest y XGBoost | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Doctorado-UDP/data-mining-2026/blob/main/code/1_modelos_clasificacion.ipynb) |
-| [`code/2_pipelines_y_validacion.ipynb`](code/2_pipelines_y_validacion.ipynb) | Sesión 9 · jueves 22 de octubre | Evaluación y validación: *pipelines*, fuga de datos, validación cruzada estratificada, agrupada y anidada, métricas multiclase, curvas ROC y PR, umbrales y calibración | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Doctorado-UDP/data-mining-2026/blob/main/code/2_pipelines_y_validacion.ipynb) |
 | Regresión (próximamente) | Sesión de autoestudio | Modelos de regresión: regresión lineal, ridge y lasso, k-NN, SVR, MLP, random forest y XGBoost | Próximamente |
+| [`code/2_pipelines_y_validacion.ipynb`](code/2_pipelines_y_validacion.ipynb) | Sesión 9 · jueves 22 de octubre | Evaluación y validación: *pipelines*, fuga de datos, validación cruzada estratificada, agrupada y anidada, métricas multiclase, curvas ROC y PR, umbrales y calibración | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Doctorado-UDP/data-mining-2026/blob/main/code/2_pipelines_y_validacion.ipynb) |
 
 Los notebooks de las sesiones siguientes se agregarán aquí antes de cada clase.
 

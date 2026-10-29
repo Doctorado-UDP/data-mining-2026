@@ -6,7 +6,7 @@ Repositorio Data Mining Doctorado UDP 2026: materiales del curso Minería de Dat
 
 - `code/`: notebooks de demostración de cada sesión.
 - `refs/`: programa del curso.
-- `prediction_challenge/`: desafío de predicción (desde el jueves 5 de noviembre).
+- `prediction_challenge/`: desafío de predicción (desde el martes 10 de noviembre).
 - `requirements.txt`: versiones probadas de las librerías, para todo el repositorio.
 
 ## Notebooks
@@ -15,10 +15,11 @@ Todos los notebooks funcionan igual **en su computador** y en **Google Colab**.
 
 | Notebook | Sesión | Tema | Colab |
 |---|---|---|---|
-| Clustering (próximamente) | Sesión de autoestudio | Modelamiento descriptivo: k-means, clustering jerárquico, DBSCAN, silueta y PCA | Próximamente |
+| [`code/0_clustering.ipynb`](code/0_clustering.ipynb) | Sesión de autoestudio · jueves 29 de octubre | Modelamiento descriptivo: k-means, clustering jerárquico, DBSCAN, silueta y PCA | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Doctorado-UDP/data-mining-2026/blob/main/code/0_clustering.ipynb) |
 | [`code/1_modelos_clasificacion.ipynb`](code/1_modelos_clasificacion.ipynb) | Sesión 8 · jueves 15 de octubre | Modelos de clasificación: regresión logística, Naive Bayes, k-NN, SVM, MLP, random forest y XGBoost | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Doctorado-UDP/data-mining-2026/blob/main/code/1_modelos_clasificacion.ipynb) |
 | Regresión (próximamente) | Sesión de autoestudio | Modelos de regresión: regresión lineal, ridge y lasso, k-NN, SVR, MLP, random forest y XGBoost | Próximamente |
 | [`code/2_pipelines_y_validacion.ipynb`](code/2_pipelines_y_validacion.ipynb) | Sesión 9 · jueves 22 de octubre | Evaluación y validación: *pipelines*, fuga de datos, validación cruzada estratificada, agrupada y anidada, métricas multiclase, curvas ROC y PR, umbrales y calibración | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Doctorado-UDP/data-mining-2026/blob/main/code/2_pipelines_y_validacion.ipynb) |
+| [`code/3_ensambles_y_ajuste.ipynb`](code/3_ensambles_y_ajuste.ipynb) | Sesión 10 · jueves 29 de octubre | Ensambles y ajuste: votación, bagging, boosting, stacking, búsqueda en grilla y aleatoria, Optuna y validación con ventanas temporales | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Doctorado-UDP/data-mining-2026/blob/main/code/3_ensambles_y_ajuste.ipynb) |
 
 Los notebooks de las sesiones siguientes se agregarán aquí antes de cada clase.
 
@@ -43,9 +44,9 @@ Los notebooks de las sesiones siguientes se agregarán aquí antes de cada clase
 
 Colab usa sus propias versiones de las librerías (en octubre de 2026: Python 3.13, scikit-learn 1.6.1, pandas 2.2.3). Algunos resultados pueden diferir en milésimas de los que muestran los notebooks; las conclusiones no cambian.
 
-## Sesión de autoestudio: clustering (próximamente)
+## Sesión de autoestudio: clustering
 
-El notebook y la presentación se publicarán más adelante; las lecturas ya están disponibles:
+Publicada el jueves 29 de octubre: el notebook está en `code/0_clustering.ipynb`. Lecturas:
 
 - Tan, P.-N., Steinbach, M., Karpatne, A. y Kumar, V. (2019). *Introduction to Data Mining* (2.ª ed.), cap. 7, "Cluster Analysis: Basic Concepts and Algorithms". Capítulo gratuito de los autores: https://www-users.cse.umn.edu/~kumar001/dmbook/ch7_clustering.pdf
 - James, G., Witten, D., Hastie, T., Tibshirani, R. y Taylor, J. (2023). *An Introduction to Statistical Learning with Applications in Python*, cap. 12. Libro gratuito: https://www.statlearning.com

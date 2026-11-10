@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Desafío de predicción: etiquetas de prueba y notas, solo locales
+**/y_test.csv
+**/notas_privadas.csv

@@ -1,0 +1,2 @@
+# Keep CSV line endings as written (LF) so the SHA-256 hashes in NOTAS_INSTRUCTOR.md hold on any checkout
+*.csv text eol=lf

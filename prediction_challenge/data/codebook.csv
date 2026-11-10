@@ -1,0 +1,53 @@
+columna,variable_casen,etiqueta_casen,descripcion,tipo,valores,pct_missing
+id,,,Identificador de fila dentro de cada partición (0..n-1); une X con y y se usa en el envío,id,0..n-1,0.0
+region,region,Region,Región de residencia del hogar,categorica,Antofagasta | Arica y Parinacota | Atacama | Aysen | Biobio | Coquimbo | La Araucania | Los Lagos | Los Rios | Magallanes | Maule | Metropolitana | Nuble | O'Higgins | Tarapaca | Valparaiso,0.0
+area,area,Area,Área geográfica (urbano/rural),categorica,Rural | Urbano,0.0
+n_personas,numper,Numero de personas en el hogar (excluye SDPA),Número de personas en el hogar (acotada: 10 = 10 o más),numerica,1-10,0.0
+tipo_hogar,tipohogar,Tipo de Hogar,Tipo de hogar según composición de parentesco,categorica,Censal | Extenso Biparental | Extenso Monoparental | Nuclear Biparental | Nuclear Monoparental | Unipersonal,0.0
+hay_menores_18,men18c,Presencia de menores de 18 anos en el hogar (excluye SDPA),Presencia de menores de 18 años en el hogar,categorica,No | Si,0.0
+hay_mayores_60,may60c,Presencia de mayores de 60 anos en el hogar (excluye SDPA),Presencia de personas de 60 años o más en el hogar,categorica,No | Si,0.0
+n_ocupados_hogar,n_ocupados,Numero de ocupados en el hogar (excluye SDPA),Número de personas ocupadas en el hogar,numerica,0-9,0.0
+n_inactivos_hogar,n_inactivos,Numero de inactivos en el hogar (excluye SDPA),Número de personas inactivas en el hogar,numerica,0-9,0.0
+allegamiento_interno,allega_int,Presencia de allegamiento interno en el hogar,Allegamiento interno (más de un núcleo familiar en el hogar),categorica,No | Si,0.0
+edad_jefe,edad,Edad,Edad de la jefatura de hogar en años (acotada: 90 = 90 o más),numerica,16-90,0.0
+sexo_jefe,sexo,Sexo,Sexo de la jefatura de hogar,categorica,Hombre | Mujer,0.0
+estado_civil_jefe,ecivil,ecivil. Cual es el estado conyugal o civil actual?,Estado conyugal o civil de la jefatura,categorica,Anulado(a) | Casado(a) | Conviviente civil (AUC) | Conviviente sin AUC | Divorciado(a) | Separado(a) | Soltero(a) | Viudo(a),0.0
+anios_escolaridad_jefe,esc,Anos de escolaridad (edad >= 15),Años de escolaridad de la jefatura,numerica,0-31,0.21
+nivel_educ_jefe,educc,Nivel de escolaridad agregado,Nivel educacional agregado de la jefatura,categorica,Basica completa | Basica incompleta | Media completa | Media incompleta | Sin educacion formal | Superior completa | Superior incompleta,0.21
+area_estudio_jefe,cinef13_area,Clasificacion Internacional Normalizada de Educacion (CINE-F). Campo amplio,Campo amplio de estudio (CINE-F 2013); solo jefaturas con educación superior,categorica,Administracion y Derecho | Agropecuaria y Veterinaria | Artes y Humanidades | Ciencias Naturales y Matematicas | Ciencias Sociales y Periodismo | Educacion | Ingenieria y Construccion | Salud y Bienestar | Servicios | TIC,68.75
+actividad_jefe,activ,Condicion de actividad,"Condición de actividad de la jefatura (ocupado, desocupado, inactivo)",categorica,Desocupados | Inactivos | Ocupados,0.0
+ocupacion_jefe,oficio1_08,oficio1_08. Oficio (1 digito) CIUO 08,"Ocupación (CIUO-08, gran grupo, 1 dígito); solo ocupados",categorica,0 Fuerzas armadas | 1 Directivos y gerentes | 2 Profesionales | 3 Tecnicos nivel medio | 4 Apoyo administrativo | 5 Servicios y vendedores | 6 Agropecuarios calificados | 7 Artesanos y operarios | 8 Operadores de maquinas | 9 Ocupaciones elementales,38.36
+rama_jefe,rama1,rama1. Actividad economica lugar donde trabaja (1 digito) CAENES,"Rama de actividad económica (CAENES, sección); solo ocupados",categorica,A Agropecuario y pesca | B Mineria | C Manufactura | D Electricidad y gas | E Agua y residuos | F Construccion | G Comercio | H Transporte | I Alojamiento y comidas | J Informacion y comunicaciones | K Financieras y seguros | L Inmobiliarias | M Profesionales y cientificas | N Servicios administrativos | O Administracion publica | P Ensenanza | Q Salud y asistencia social | R Artes y entretenimiento | S Otros servicios | T Hogares como empleadores | U Organismos extraterritoriales,38.37
+categoria_ocup_jefe,o15,"o15. En su trabajo o negocio principal, trabaja como?",Categoría ocupacional en el trabajo principal; solo ocupados,categorica,Asalariado empresa publica | Asalariado sector privado | Asalariado sector publico | Cuenta propia | Empleador | FF.AA. y del Orden | Familiar no remunerado | Servicio domestico puertas afuera,38.35
+horas_trabajo_jefe,o10,o10. Cuantas horas trabaja habitualmente por semana en su trabajo principal?,Horas trabajadas habitualmente por semana; solo ocupados,numerica,1-168,38.62
+tipo_trabajo_jefe,o12,o12. El trabajo o negocio principal es de tipo...?,"Tipo de trabajo (permanente, temporada, ocasional, ...); solo ocupados",categorica,A prueba | De temporada o estacional | Ocasional o eventual | Permanente | Por plazo o tiempo determinado,38.4
+contrato_jefe,contrato,Tiene contrato de trabajo,Tiene contrato de trabajo; solo asalariados,categorica,No | Si,55.62
+cotiza_jefe,cotiza,Cotizo durante el mes pasado,Cotizó en el sistema de pensiones el mes pasado,categorica,No | Si,0.27
+tamano_empresa_jefe,o25,"o25. Cuantas personas trabajan en ese negocio, empresa o institucion en Chile?",Número de personas que trabajan en la empresa; solo ocupados,categorica,1 persona | 10 a 49 | 2 a 5 | 200 y mas | 50 a 199 | 6 a 9,39.47
+prevision_salud_jefe,s13,s13. A que sistema previsional de salud pertenece?,Sistema previsional de salud de la jefatura,categorica,FF.AA. y del Orden | FONASA | Isapre | Ninguno | Otro,0.17
+seguro_salud_compl_hogar,s15a,s15a. Algun integrante de su hogar tiene Seguro de Salud complementario?,Algún integrante del hogar tiene seguro de salud complementario,categorica,No | Si,0.45
+discapacidad_jefe,disc_wg,Situacion de discapacidad (indicador Washington Group),Situación de discapacidad de la jefatura (Washington Group),categorica,No | Si,0.01
+pueblo_indigena_jefe,pueblos_indigenas,Pertenencia a pueblos indigenas,Pertenencia de la jefatura a pueblos indígenas,categorica,No | Si,0.0
+nacido_extranjero_jefe,lugar_nac,Lugar de nacimiento,Jefatura nacida fuera de Chile,categorica,No | Si,0.48
+n_vehiculos,r15,r15. Cuantos vehiculos de uso laboral o particular tiene su hogar?,Número de vehículos de uso laboral o particular del hogar (0 si no tiene),numerica,0-16,0.03
+internet_fija,r17a,r17a. Acceso a Internet en la vivienda: Banda ancha fija,Acceso a internet en la vivienda: banda ancha fija,categorica,No | Si,0.0
+internet_movil_modem,r17b,"r17b. Acceso a Internet en la vivienda: Banda ancha movil (modem, Wifi o USB)","Acceso a internet en la vivienda: banda ancha móvil (módem, wifi o USB)",categorica,No | Si,0.0
+internet_celular,r17c,r17c. Acceso a Internet en la vivienda: Telefono movil,Acceso a internet en la vivienda: teléfono móvil,categorica,No | Si,0.0
+tipo_vivienda,v1,v1. Cual es el tipo de vivienda que ocupa la persona entrevistada?,Tipo de vivienda,categorica,Casa aislada | Casa pareada ambos lados | Casa pareada un lado | Depto con ascensor | Depto sin ascensor | Mediagua o emergencia | Pieza o conventillo | Vivienda precaria,0.0
+material_muros,v2,v2. Cual es el material que predomina en los muros exteriores de la vivienda?,Material predominante de los muros exteriores,categorica,Adobe o artesanal | Albanileria | Hormigon armado | Materiales precarios | Tabique forrado | Tabique sin forro,0.0
+material_piso,v4,v4. Cual es el material que predomina en el piso de la vivienda?,Material predominante del piso,categorica,Alfombra | Baldosa de cemento | Ceramico o similar | Madera o similar | Radier | Tierra,0.0
+m2_vivienda,v12,v12. Cuantos metros cuadrados tiene la vivienda?,Superficie de la vivienda (tramos de m²),categorica,101 a 150 m2 | 30 a 40 m2 | 41 a 60 m2 | 61 a 100 m2 | Mas de 150 m2 | Menos de 30 m2,0.84
+tenencia_vivienda,ten_viv,Condicion de tenencia de la vivienda,Condición de tenencia de la vivienda,categorica,Arrendada | Cedida | Irregular u otro | Propia,0.0
+n_dormitorios,v27a,v27a. Cuantos dormitorios (uso exclusivo para dormir) tiene la vivienda?,Número de dormitorios de uso exclusivo,numerica,0-28,0.03
+n_banos,v27b,v27b. Cuantos banos tiene la vivienda?,Número de baños,numerica,0-10,0.06
+hacinamiento,ind_hacina,Indice de hacinamiento,Índice de hacinamiento (personas por dormitorio),categorica,Alto | Critico | Medio | Sin hacinamiento,0.03
+indice_materialidad,ind_mat,Indice de materialidad de la vivienda,Índice de materialidad de la vivienda,categorica,Aceptable | Irrecuperable | Recuperable (resto) | Recuperable (solo muro),0.0
+fuente_agua,v20,v20. De donde proviene el agua de la vivienda?,Origen del agua de la vivienda,categorica,"Camion aljibe | Otra fuente | Pozo o noria | Red publica | Rio, vertiente o lluvia",0.0
+sistema_excretas,v23_sistema,v23_sistema. Que tipo de sistema tiene?,Sistema de eliminación de excretas,categorica,Bano quimico | Cajon | Letrina pozo negro | WC alcantarillado | WC fosa septica,1.36
+electricidad,v24,"v24. La vivienda donde usted vive, dispone de energia electrica?",Disponibilidad y fuente de energía eléctrica,categorica,"No dispone | Red y generador comunitario | Red y generador propio | Red, medidor compartido | Red, medidor propio | Red, sin medidor | Solo generador comunitario | Solo generador propio",0.0
+combustible_cocina,v34a,v34a. Que combustible o fuente de energia usa habitualmente para cocinar?,Combustible o fuente de energía para cocinar,categorica,"Electricidad | Energia solar | Gas licuado | Gas por red | Lena, carbon o derivados | No tiene sistema | No usa | Parafina o petroleo",0.0
+combustible_calefaccion,v34b,v34b. Que combustible o fuente de energia usa habitualmente para calefaccionar?,Combustible o fuente de energía para calefaccionar,categorica,"Electricidad | Energia solar | Gas licuado | Gas por red | Lena, carbon o derivados | No tiene sistema | No usa | Parafina o petroleo",0.0
+cerca_transporte_publico,v35a,v35a. Vivienda a menos de 8 cuadras o 1 Km del transporte publico,Vivienda a menos de 8 cuadras (1 km) del transporte público,categorica,No | Si,0.04
+balaceras_sector,v36e,"v36e. En area residencia, ha presenciado balaceras o disparos?",Frecuencia con que ha presenciado balaceras o disparos en el sector,categorica,Muchas veces | Nunca | Pocas veces | Siempre,0.0
+estado_sector,p2,p2. Indique estado de edificios y casas del sector,Estado de edificios y casas del sector,categorica,Bueno | Malo | Muy bueno | Muy malo | Satisfactorio,0.0
+ypchautcor,ypchautcor,Ingreso autonomo per capita del hogar corregido,"Objetivo (solo en y_*): ingreso autónomo per cápita del hogar corregido, CLP/mes",objetivo,0-30000000,0.0

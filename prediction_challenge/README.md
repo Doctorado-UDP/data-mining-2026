@@ -133,12 +133,13 @@ El leaderboard se publicará a partir del lanzamiento del challenge.
 
 Participant | Date | Submission | Model | Accuracy | Precision | Recall | F1-Score
 --- | :-: | :-: | :-: | :-: | :-: | :-: | :-:
-Carolina :trophy: | 2026-11-10 | 1 | XGBoost | 0.513 | 0.506 | 0.512 | 0.507
+Matias :trophy: | 2026-11-11 | 2 | LightGBM | 0.513 | 0.505 | 0.512 | 0.507
+Carolina | 2026-11-10 | 1 | XGBoost | 0.513 | 0.506 | 0.512 | 0.507
 Matias | 2026-11-10 | 1 | RF500 | 0.509 | 0.502 | 0.508 | 0.504
 Karla | 2026-11-10 | 1 | RF100 | 0.371 | 0.351 | 0.370 | 0.354
+MariaCamila | 2026-11-10 | 1 | RF100 | 0.367 | 0.348 | 0.366 | 0.351
 Baseline | 2026-11-10 | 1 | RF100 | 0.257 | 0.196 | 0.253 | 0.210
 Tamara | 2026-11-10 | 1 | RF100 | 0.257 | 0.196 | 0.253 | 0.210
-
 
 **Modelo base:** el [código de ejemplo](https://github.com/Doctorado-UDP/data-mining-2026/blob/main/prediction_challenge/baseline_model.ipynb) (Random Forest de 100 árboles con un solo predictor, `region`) obtiene un **F1-Score macro de 0,216** en el validation set (accuracy 0,263).
 

@@ -136,6 +136,7 @@ Participant | Date | Submission | Model | Accuracy | Precision | Recall | F1-Sco
 MariaCamila :trophy: | 2026-11-11 | 2 | LightGBM | 0.513 | 0.507 | 0.511 | 0.508
 Matias | 2026-11-11 | 2 | LightGBM | 0.513 | 0.505 | 0.512 | 0.507
 Carolina | 2026-11-10 | 1 | XGBoost | 0.513 | 0.506 | 0.512 | 0.507
+Carolina | 2026-11-11 | 2 | HGBx5 | 0.513 | 0.506 | 0.511 | 0.507
 Matias | 2026-11-10 | 1 | RF500 | 0.509 | 0.502 | 0.508 | 0.504
 Marian | 2026-11-11 | 1 | RF1000 | 0.489 | 0.483 | 0.487 | 0.483
 Karla | 2026-11-10 | 1 | RF100 | 0.371 | 0.351 | 0.370 | 0.354

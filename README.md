@@ -5,13 +5,13 @@ Repositorio Data Mining Doctorado UDP 2026: materiales del curso Minería de Dat
 ## Contenido del repositorio
 
 - `code/`: notebooks de demostración de cada sesión.
-- `refs/`: programa del curso.
+- `refs/`: programa del curso y guía de instalación de transformers y Ollama (Sesión 13).
 - `prediction_challenge/`: desafío de predicción (desde el martes 10 de noviembre).
 - `requirements.txt`: versiones probadas de las librerías, para todo el repositorio.
 
 ## Notebooks
 
-Todos los notebooks funcionan igual **en su computador** y en **Google Colab**.
+Todos los notebooks funcionan igual **en su computador** y en **Google Colab**, salvo `6_LLM_clasificador.ipynb`, que corre solo en su computador (instalación en `refs/transformers_ollama.md`).
 
 | Notebook | Sesión | Tema | Colab |
 |---|---|---|---|
@@ -20,6 +20,9 @@ Todos los notebooks funcionan igual **en su computador** y en **Google Colab**.
 | Regresión (próximamente) | Sesión de autoestudio | Modelos de regresión: regresión lineal, ridge y lasso, k-NN, SVR, MLP, random forest y XGBoost | Próximamente |
 | [`code/2_pipelines_y_validacion.ipynb`](code/2_pipelines_y_validacion.ipynb) | Sesión 9 · jueves 22 de octubre | Evaluación y validación: *pipelines*, fuga de datos, validación cruzada estratificada, agrupada y anidada, métricas multiclase, curvas ROC y PR, umbrales y calibración | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Doctorado-UDP/data-mining-2026/blob/main/code/2_pipelines_y_validacion.ipynb) |
 | [`code/3_ensambles_y_ajuste.ipynb`](code/3_ensambles_y_ajuste.ipynb) | Sesión 10 · jueves 29 de octubre | Ensambles y ajuste: votación, bagging, boosting, stacking, búsqueda en grilla y aleatoria, Optuna y validación con ventanas temporales | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Doctorado-UDP/data-mining-2026/blob/main/code/3_ensambles_y_ajuste.ipynb) |
+| [`code/4_clasificacion_TADA.ipynb`](code/4_clasificacion_TADA.ipynb) | Sesión 12 · jueves 12 de noviembre | Clasificación de textos: tokenización, palabras vacías, *stemming* y lematización, bolsa de palabras, TF-IDF y n-gramas; Naive Bayes, SVM lineal y regresión logística; validación fuera del dominio | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Doctorado-UDP/data-mining-2026/blob/main/code/4_clasificacion_TADA.ipynb) |
+| [`code/5_BERT_y_semisupervision.ipynb`](code/5_BERT_y_semisupervision.ipynb) | Sesión 13 · jueves 19 de noviembre | BERT y aprendizaje semi-supervisado: modelos tipo BERT ya ajustados para toxicidad, auto-entrenamiento y aprendizaje activo | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Doctorado-UDP/data-mining-2026/blob/main/code/5_BERT_y_semisupervision.ipynb) |
+| [`code/6_LLM_clasificador.ipynb`](code/6_LLM_clasificador.ipynb) | Sesión 13 · jueves 19 de noviembre | Clasificar textos con un LLM local (Ollama y Llama 3.2): *zero-shot*, *few-shot*, cadena de razonamiento, estabilidad del *prompt* y validación contra la codificación humana | Solo en su computador (Ollama) |
 
 Los notebooks de las sesiones siguientes se agregarán aquí antes de cada clase.
 

@@ -140,7 +140,7 @@ Karla | 2026-11-12 | 2 | XGBoost | 0.515 | 0.516 | 0.515 | 0.514
 Tamara | 2026-11-16 | 4 | LightGBM500 | 0.516 | 0.509 | 0.515 | 0.511
 Carolina | 2026-11-15 | 4 | RFMLPx5M | 0.515 | 0.510 | 0.515 | 0.510
 Matias | 2026-11-11 | 2 | LightGBM | 0.513 | 0.505 | 0.512 | 0.507
-Marian | 2026-11-12 | 2 | RF1000 | 0.509 | 0.502 | 0.508 | 0.504
+Marian | 2026-11-19 | 3 | HGB | 0.511 | 0.505 | 0.511 | 0.506
 Baseline | 2026-11-10 | 1 | RF100 | 0.257 | 0.196 | 0.253 | 0.210
 
 **Modelo base:** el [código de ejemplo](https://github.com/Doctorado-UDP/data-mining-2026/blob/main/prediction_challenge/baseline_model.ipynb) (Random Forest de 100 árboles con un solo predictor, `region`) obtiene un **F1-Score macro de 0,216** en el validation set (accuracy 0,263).
